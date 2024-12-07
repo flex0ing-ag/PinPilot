@@ -1,0 +1,26 @@
+name: combine
+description: "A new Flutter project."
+#publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_code_scanner: ^1.0.0
+  google_ml_kit: ^0.10.0
+  image_picker: ^0.8.7+3 # Updated to a more recent version
+  http: ^1.2.2 # Added the http package
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
